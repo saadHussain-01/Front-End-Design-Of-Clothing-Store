@@ -1,0 +1,1148 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/* general section */
+*{
+    text-decoration: none;
+    font-family: poppin, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    text-decoration: none;
+}
+
+/* Header Section */
+
+.navbar{
+    background: black;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: poppins,sans-serif;
+    color: white;
+}
+.nav-link{
+    font-size: 18px;
+    font-family: poppins,sans-serif;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(193, 3, 3);
+    font-weight: bold;
+}
+
+.active{
+    color: red;
+}
+
+/* Home Section */
+
+#Home{
+    width: 100%;
+}
+
+.sec3-content{
+    width: 100%;
+    margin-top: 230px;
+    transform: translateX(-100%);
+    animation: slideInLeft 1s ease-in forwards;
+    
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.sec3-content h2{
+    font-size: 50px;
+    font-family: poppins, sans-serif;
+    color: black;
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+.sec3-content h3{
+    font-size: 40px;
+    font-family: poppins, sans-serif;
+    color: rgb(193, 3, 3);
+    font-weight: bold;
+}
+
+.sec3-content p{
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    color: black;
+    padding-top: 10px;
+}
+
+.sec3-content a{
+    color: white;
+    background: rgb(193, 3, 3);
+    font-size: 18px;
+    font-family: poppins,sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec3-content a:hover{
+    background: black;
+    color: rgb(193, 3, 3);
+    font-weight: bold;
+}
+
+.sec3-image{
+    width: 100%;
+
+}
+.sec3-image img{
+    width: 80%;
+    height: 550px;
+}
+
+/* What We Do Section */
+
+#what-we-do{
+    margin-top: 80px;
+
+}
+.what-image img{
+    width: 80%;
+    height: 450px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.what-content{
+    position: relative;
+    animation: slideInRight 2s forwards ease-in-out;
+}
+
+@keyframes slideInRight {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+.what-content h2{
+    font-size: 50px;
+    font-family: poppins, sans-serif;
+    color: rgb(193, 3, 3);
+    margin-top: 140px;
+    font-weight: bold;
+}
+
+.what-content p{
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    color: black;
+    padding-top: 10px;
+}
+
+.social-media i{
+    font-size: 22px;
+    color: black;
+    padding-top: 15px;
+    margin: 5px;
+ }
+ 
+ .social-media i:hover{
+     color: rgb(193, 3, 3);
+ }
+
+/* Product Section */
+
+
+.pro-heading{
+    font-size: 40px;
+    font-family: poppins,sans-serif;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.box-container-1{
+    width: 100%;
+    height: 500px;
+
+}
+
+.box-1{
+    height: 490px;
+    width: 84%;
+    border-radius: 10%;
+    margin-top: 60px;
+    margin-right: 5px;
+    animation: pulse 2s;
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+.pro-image img{
+    width: 70%;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 30px;
+    transition: .5s ease;
+    
+}
+
+.pro-image img:hover{
+    transform: scale(1.05);
+}
+
+.pro-content h4{
+    font-size: 28px;
+    font-family: poppins, sans-serif;
+    color: rgb(193, 3, 3);
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+.stars{
+    margin-left: 60px;
+    margin-top: 7px;
+}
+
+.stars a{
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.pro-content p{
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    color: black;
+    padding-top: 10px;
+    margin-left: 63px;
+    font-weight: bold;
+}
+
+.pro-btn{
+    margin-left: 60px;
+}
+
+.pro-btn a{
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    padding: 6px;
+    border-radius: 10%;
+    background: rgb(193, 3, 3);
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pro-btn a:hover{
+    color: rgb(193, 3, 3);
+    background: black;
+
+}
+
+#Designer{
+    width: 100%;
+}
+
+.des-heading{
+    font-size: 45px;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.box-container-2{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.box-2{
+    height: 330px;
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-right: 5px;
+    border: 2px solid red;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.des-image img{
+    width: 15%;
+    height: 80px;
+    margin-top: 10px;
+    transition: .5s ease;
+    border-radius: 50%;
+}
+
+.des-content h3{
+    font-size: 28px;
+    font-family: poppins, sans-serif;
+    color: rgb(193, 3, 3);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.des-content h4{
+    font-size: 22px;
+    font-family: poppins, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.des-content p{
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    color: black;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#Speciality{
+    width: 100%;
+}
+
+.Spec-heading{
+    font-size: 45px;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.spec-image-1 img{
+   width: 80%;
+   height: 390px;
+   margin-top: 40px;
+   animation: slideIn 2s ease;
+   margin-left: 50px;
+
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.spec-content-1 h3{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.spec-content-1 p{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    margin-left: 50px;
+    color: black;
+    
+}
+
+.spec-image-2 img{
+    width: 80%;
+    height: 390px;
+    margin-top: 40px;
+    animation: slideIn 2s ease forwards;
+    margin-left: 50px;
+ 
+ }
+
+ @keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.spec-content-2 h3{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.spec-content-2 p{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 50px;
+    
+}
+
+
+.spec-image-3 img{
+    width: 60%;
+    height: 390px;
+    margin-top: 20px;
+    animation: slideIn 2s ease;
+    margin-left: 60px;
+ 
+ }
+
+ .spec-content-3 h3{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+
+.spec-content-3 p{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 60px;
+    
+}
+
+
+ .spec-image-4 img{
+    width: 60%;
+    height: 390px;
+    margin-top: 20px;
+    animation: slideIn 2s ease;
+    margin-right: 30px;
+    margin-left: 60px;
+ 
+ }
+
+ .spec-content-4 h3{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+
+.spec-content-4 p{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 60px;
+    
+}
+ .spec-image-5 img{
+    width: 60%;
+    height: 390px;
+    margin-top: 20px;
+    animation: slideIn 2s ease;
+    margin-left: 60px;
+ 
+ }
+
+ .spec-content-5 h3{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+
+.spec-content-5 p{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 60px;
+    
+}
+
+
+#Branch{
+    width: 100%;
+}
+
+.branch-heading{
+    font-size: 45px;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.box-container-3{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.box-3{
+    height: 470px;
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-right: 5px;
+    transform: scale(0);
+    animation: scaleUp 2s ease forwards;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.bran-image img{
+    width: 100%;
+    height: 300px;
+}
+
+.bran-content h2{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: rgb(193, 3, 3);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.bran-content p{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+    
+}
+
+.bran-btn a{
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    padding: 6px;
+    background: rgb(193, 3, 3);
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 35%;
+}
+
+.bran-btn a:hover{
+    color: rgb(193, 3, 3);
+    background: black;
+
+}
+
+#Price{
+    width: 100%;
+}
+
+.price-heading{
+    font-size: 45px;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.box-container-4{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.box-4{
+    height: 420px;
+    width: 70%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-right: 5px;
+    border: 2px solid red;
+    margin-left: 50px;
+    position: relative;
+    left: 100%;
+    animation: slideInRight 2s ease forwards;
+    
+}
+@keyframes slideInRight {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+
+.pri-content h2{
+    font-size: 34px;
+    font-family: poppins, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pri-content h3{
+    font-size: 28px;
+    font-family: poppins, sans-serif;
+    color: rgb(193, 3, 3);
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pri-content li{
+    font-size: 18px;
+    font-family: poppins,sans-serif;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+
+.pri-btn a{
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    padding: 6px;
+    background: rgb(193, 3, 3);
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 51%;
+}
+
+.pri-btn a:hover{
+    color: rgb(193, 3, 3);
+    background: black;
+
+}
+
+#footer{
+    background: black;
+    margin-top: 70px;
+    height: 70px;
+}
+
+.footer-content p{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer-icon-Top{
+    margin-top: 10px;
+}
+.footer-icon-Top a {
+    background: rgb(225, 10, 10);
+    color: white;
+    font-size: 30px;
+    border-radius: 5%;
+}
+
+.footer-icon-Top a i{
+    border-radius: 5%;
+}
+
+
+
+
+
+/* ABOUT SECTION */
+
+.about-image img{
+    width: 100%;
+    height: 480px;
+}
+
+.abo-heading{
+    font-size: 50px;
+    font-family: poppins,sans-serif;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.abo-sub-image img{
+    width: 100%;
+    height: 480px;
+    margin-top: 70px;
+    transform: translateX(-100%);
+    animation: slideInLeft 1s ease-in forwards;
+}
+
+    
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.abo-sub-content{
+    margin-left: 30px;
+    position: relative; 
+    animation: slideInRight 2s forwards ease-in-out;
+}
+
+@keyframes slideInRight {
+0% {
+    left: 100%;
+}
+100% {
+    left: 0;
+}
+}
+
+.abo-sub-content h3{
+    font-size: 40px;
+    font-family: poppins, sans-serif;
+    color: black;
+    margin-top: 160px;
+    font-weight: bold;
+}
+
+.abo-sub-content h4{
+    font-size: 35px;
+    font-family: poppins, sans-serif;
+    color: rgb(193, 3, 3);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.abo-sub-content p{
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    color: black;
+    padding-top: 10px;
+}
+
+.abo-sub-btn a{
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    padding: 6px;
+    background: rgb(193, 3, 3);
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.abo-sub-btn a:hover{
+    color: rgb(193, 3, 3);
+    background: black;
+
+}
+
+
+
+/* SERVICE SECTION */
+
+.service-image img{
+    width: 100%;
+    height: 480px;
+    margin-top: -5px;
+}
+
+.ser-heading{
+    font-size: 50px;
+    font-family: poppins,sans-serif;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+#ser-main{
+    transform: scale(0);
+    animation: scaleUp 2s ease forwards;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ser-image img{
+    width: 80%;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.ser-content h3{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: rgb(193, 3, 3);
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.ser-content p{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 40px;
+}
+
+.ser-social-media{
+    margin-left: 40px;
+}
+
+.ser-social-media i{
+    font-size: 18px;
+    color: black;
+    padding-top: 15px;
+    margin: 5px;
+ }
+ 
+ .ser-social-media i:hover{
+     color: rgb(193, 3, 3);
+ }
+
+
+
+ /* CONTACT SECTION */
+
+
+.contact-image img{
+    width: 100%;
+    height: 480px;
+}
+
+.cont-heading{
+    font-size: 50px;
+    font-family: poppins,sans-serif;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+#contactForm{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#contactForm label{
+    font-family: poppins,sans-serif;
+}
+
+#contactForm  input{
+    font-family: poppins,sans-serif;
+    color: black;
+    border: 2px solid grey;
+}
+
+#contactForm  textarea{
+    font-family: poppins,sans-serif;
+    color: black;
+    border: 2px solid grey;
+}
+
+.form-btn{
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    padding: 6px;
+    background: rgb(193, 3, 3);
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 50%;
+    justify-content: center;
+}
+
+.form-btn:hover{
+    color: rgb(193, 3, 3);
+    background: black;
+
+}
+
+.map{
+    margin-top: 70px;
+    width: 100%;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+
+/* BLOGS SECTION */
+
+.blog-image img{
+    width: 100%;
+    height: 480px;
+}
+
+.blo-heading{
+    font-size: 50px;
+    font-family: poppins,sans-serif;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.box-container-5{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.box-5{
+    height: 470px;
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-right: 5px;
+    transform: scale(0);
+    animation: scaleUp 2s ease forwards;
+}
+
+.blo-image img{
+    width: 100%;
+    height: 300px;
+}
+
+.blo-content h3{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: rgb(193, 3, 3);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.blo-sub-content h4{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.blo-sub-content p{
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 23px;
+    margin-left: 30px;
+    
+}
+
+.rec-heading{
+    font-size: 50px;
+    font-family: poppins,sans-serif;
+    color: black;
+    margin-top: 140px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+#recent{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.rec-image img{
+     width: 100%;
+     height: 300px;
+     margin-top: 60px;
+     margin-left: 10px;
+}
+
+.rec-content{
+    margin-top: 90px;
+}
+
+.rec-content h3{
+    font-family: poppins,sans-serif;
+    font-size: 30px;
+    color: rgb(193, 3, 3);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.rec-content h4{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.rec-content p{
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 23px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+
+
+
+
